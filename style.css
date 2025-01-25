@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: antiquewhite;
+}
+#menu {
+  display: none;
+}
+h1 {
+  margin-left: 5px;
+}
+.naveBar {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.options {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.menue:hover {
+  color: aqua;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .options a {
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+}
+.sandwitch {
+  display: none;
+}
+.sandwitch1 {
+  font-size: 15px;
+  height: 30vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menueRotate {
+  transform: rotate(90deg);
+}
